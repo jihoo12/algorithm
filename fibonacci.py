@@ -8,7 +8,7 @@ def fibonacci(n):
     f=makef()
     for i in range(n):
         f=add(f,i)
-    return f[n]
+    return f
 n = int(input())
 r= fibonacci(n)
 print(r)
